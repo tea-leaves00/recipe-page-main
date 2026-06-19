@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "outfit";
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 700;
+}
+
+@font-face {
+  font-family: "young";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  max-width: 600px;
+  padding: 25px;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.prep-time {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(330, 100%, 98%);
+  width: 100%;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.instructions {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.nutrition p {
+  margin-bottom: 15px;
+}
+
+.nutrition th {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nutrition td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  padding-right: 30px;
+}
+
+ul li {
+  padding-left: 15px;
+  margin-left: 20px;
+  line-height: 1.7rem;
+}
+
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: .8rem;
+}
+
+ol li {
+  padding-left: 15px;
+  margin-left: 20px;
+  line-height: 1.3rem;
+  margin-bottom: 10px;
+}
+
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-family: outfit sans-serif;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1, h2 {
+  font-family: young;
+}
+
+p, ol, ul {
+  font-family: outfit;
+  color: hsl(30, 10%, 34%)
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  letter-spacing: .03rem;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: outfit;
+  font-weight: 575;
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.3rem;
+  margin-bottom: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+
+
+
